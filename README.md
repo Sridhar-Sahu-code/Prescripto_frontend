@@ -104,7 +104,6 @@ http://localhost:5173
 This project is configured for easy deployment on:
 
 - Vercel
-- Netlify
 - GitHub Pages
 
 To build for production:
