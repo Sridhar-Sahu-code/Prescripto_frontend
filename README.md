@@ -1,16 +1,65 @@
-# React + Vite
+# Prescripto - Doctor Appointment Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Prescripto** is a modern, responsive frontend web application built with **React.js** and **Vite**. It provides a seamless interface for patients to discover trusted doctors, book appointments, and manage their healthcare profiles.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Project Link
+GitHub Repository: [https://github.com/Sridhar-Sahu-code/Prescripto_frontend](https://github.com/Sridhar-Sahu-code/Prescripto_frontend)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+* **Comprehensive Page Routing:** Includes dedicated pages for Home, Doctors, Appointments, User Profiles, and Authentication.
+* **Doctor Discovery:** Easily browse and filter healthcare professionals by specialty such as General Physician, Gynecologist, and Dermatologist.
+* **Appointment Management:** Book slots, view upcoming visits, and manage cancellations through a dedicated dashboard.
+* **User Profiles:** Personalized profile management for patients.
+* **State Management:** Utilizes the **Context API** for efficient data flow across the application.
+* **Responsive Design:** Fully optimized for mobile and desktop views using **Tailwind CSS**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Technologies Used
+
+* **React.js & Vite** - For a fast, component-based development environment.
+* **Tailwind CSS** - For modern, utility-first styling.
+* **React Router** - For client-side navigation between pages.
+* **Vercel** - Configuration included for seamless deployment.
+
+---
+
+## 📂 Project Structure
+
+Based on the `src` directory:
+* `assets/`: Images and static media files.
+* `components/`: Reusable UI components.
+* `context/`: Global state management logic.
+* `pages/`: Main application views including `About.jsx`, `Appointment.jsx`, `Contact.jsx`, `Doctors.jsx`, `Home.jsx`, `Login.jsx`, `MyAppointments.jsx`, and `MyProfile.jsx`.
+
+---
+
+## 🛠️ Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Sridhar-Sahu-code/Prescripto_frontend.git](https://github.com/Sridhar-Sahu-code/Prescripto_frontend.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 📩 Contact
+
+**Sridhar Sahu** Email: [sahusridhar624@gmail.com](mailto:sahusridhar624@gmail.com)  
+GitHub: [@Sridhar-Sahu-code](https://github.com/Sridhar-Sahu-code)
+
+---
+*Developed with ❤️ to simplify healthcare scheduling.*
