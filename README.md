@@ -1,65 +1,142 @@
-# Prescripto - Doctor Appointment Booking System
+# 🏥 Prescripto – Doctor Appointment Booking System
 
-**Prescripto** is a modern, responsive frontend web application built with **React.js** and **Vite**. It provides a seamless interface for patients to discover trusted doctors, book appointments, and manage their healthcare profiles.
-
----
-
-## 🌐 Project Link
-GitHub Repository: [https://github.com/Sridhar-Sahu-code/Prescripto_frontend](https://github.com/Sridhar-Sahu-code/Prescripto_frontend)
+Prescripto is a modern, responsive **Doctor Appointment Booking Frontend Application** built using **React.js** and **Vite**.  
+It provides a seamless user experience for discovering doctors, booking appointments, and managing healthcare profiles efficiently.
 
 ---
 
-## ✨ Key Features
+## 🔗 Live Repository
 
-* **Comprehensive Page Routing:** Includes dedicated pages for Home, Doctors, Appointments, User Profiles, and Authentication.
-* **Doctor Discovery:** Easily browse and filter healthcare professionals by specialty such as General Physician, Gynecologist, and Dermatologist.
-* **Appointment Management:** Book slots, view upcoming visits, and manage cancellations through a dedicated dashboard.
-* **User Profiles:** Personalized profile management for patients.
-* **State Management:** Utilizes the **Context API** for efficient data flow across the application.
-* **Responsive Design:** Fully optimized for mobile and desktop views using **Tailwind CSS**.
+👉 GitHub: https://github.com/Sridhar-Sahu-code/Prescripto_frontend
 
 ---
 
-## 🚀 Technologies Used
+## ✨ Features
 
-* **React.js & Vite** - For a fast, component-based development environment.
-* **Tailwind CSS** - For modern, utility-first styling.
-* **React Router** - For client-side navigation between pages.
-* **Vercel** - Configuration included for seamless deployment.
-
----
-
-## 📂 Project Structure
-
-Based on the `src` directory:
-* `assets/`: Images and static media files.
-* `components/`: Reusable UI components.
-* `context/`: Global state management logic.
-* `pages/`: Main application views including `About.jsx`, `Appointment.jsx`, `Contact.jsx`, `Doctors.jsx`, `Home.jsx`, `Login.jsx`, `MyAppointments.jsx`, and `MyProfile.jsx`.
+- 🏠 Multi-page routing (Home, Doctors, About, Contact, Login, Profile, Appointments)
+- 👨‍⚕️ Browse doctors by specialty
+- 📅 Book and manage appointments
+- ❌ Cancel scheduled appointments
+- 👤 User profile management
+- 🔄 Global state management using Context API
+- 📱 Fully responsive design (Mobile + Desktop)
+- ⚡ Fast performance with Vite
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Tech Stack
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Sridhar-Sahu-code/Prescripto_frontend.git](https://github.com/Sridhar-Sahu-code/Prescripto_frontend.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Start the development server:**
-    ```bash
-    npm run dev
-    ```
+| Technology      | Purpose |
+|---------------|----------|
+| React.js      | Component-based UI development |
+| Vite          | Fast development & build tool |
+| Tailwind CSS  | Utility-first styling |
+| React Router  | Client-side routing |
+| Context API   | State management |
+| Vercel        | Deployment support |
 
 ---
 
-## 📩 Contact
+## 📁 Project Structure
 
-**Sridhar Sahu** Email: [sahusridhar624@gmail.com](mailto:sahusridhar624@gmail.com)  
-GitHub: [@Sridhar-Sahu-code](https://github.com/Sridhar-Sahu-code)
+```
+Prescripto_frontend/
+│
+├── public/
+├── src/
+│   ├── assets/        # Images & static files
+│   ├── components/    # Reusable UI components
+│   ├── context/       # Global state management
+│   ├── pages/         # Application pages
+│   │   ├── Home.jsx
+│   │   ├── Doctors.jsx
+│   │   ├── Appointment.jsx
+│   │   ├── MyAppointments.jsx
+│   │   ├── MyProfile.jsx
+│   │   ├── Login.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
 
 ---
-*Developed with ❤️ to simplify healthcare scheduling.*
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Sridhar-Sahu-code/Prescripto_frontend.git
+```
+
+### 2️⃣ Navigate to the Project Folder
+
+```bash
+cd Prescripto_frontend
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌍 Deployment
+
+This project is configured for easy deployment on:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+To build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📌 Future Enhancements
+
+- 🔐 Authentication with backend integration
+- 🗂️ Doctor dashboard
+- 💳 Online payment integration
+- 📊 Appointment history analytics
+- 🔔 Email/SMS notifications
+
+---
+
+## 👨‍💻 Author
+
+**Sridhar Sahu**  
+📧 sahusridhar624@gmail.com  
+🔗 GitHub: https://github.com/Sridhar-Sahu-code
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
